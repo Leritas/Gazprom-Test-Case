@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply text-blue-500;
+}
+
+tr {
+  @apply border-b border-solid border-gray-300;
+}
+
+th {
+  @apply border-r border-solid border-gray-300 px-4;
+}
+
+td {
+  @apply px-4 border-r border-solid border-gray-200;
+}
+
+* {
+  @apply text-sm md:text-base;
+}
+
+table * {
+  @apply text-[10px] md:text-base;
+}
+
+body,
+html,
+#root {
+  @apply h-full;
+}
